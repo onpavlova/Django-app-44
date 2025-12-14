@@ -1,0 +1,20 @@
+{% extends 'store_app/base.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+    <h1>{{ title }}</h1>
+    <ul class="list-group">
+        {% for product in products %}
+            <li class="list-group-item">
+                <h5><a href="{% url 'product_detail' product.id %}">{{ product.name }}</a></h5>
+                <p>{{ product.description|truncatechars:30}}</p>
+                <small>Цена: {{ product.price }} </small>
+                <a href="{% url 'product_edit' product.id %}" class="btn btm-sm btn-warning">Редактировать</a>
+
+            </li>
+        {% empty %}
+            <p>Товаров нет</p>
+        {% endfor %}
+    </ul>
+{% endblock %}

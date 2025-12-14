@@ -1,0 +1,1222 @@
+[
+  {
+    "model": "store_app.category",
+    "pk": 1,
+    "fields": {
+      "name": "Смартфоны",
+      "description": "Мобильные телефоны с сенсорным экраном"
+    }
+  },
+  {
+    "model": "store_app.category",
+    "pk": 2,
+    "fields": {
+      "name": "Ноутбуки",
+      "description": "Переносные компьютеры"
+    }
+  },
+  {
+    "model": "store_app.category",
+    "pk": 3,
+    "fields": {
+      "name": "Телевизоры",
+      "description": "Телевизоры разных диагоналей"
+    }
+  },
+  {
+    "model": "store_app.category",
+    "pk": 4,
+    "fields": {
+      "name": "Наушники",
+      "description": "Проводные и беспроводные наушники"
+    }
+  },
+  {
+    "model": "store_app.category",
+    "pk": 5,
+    "fields": {
+      "name": "Фантастика",
+      "description": "Научная фантастика и фэнтези"
+    }
+  },
+  {
+    "model": "store_app.category",
+    "pk": 6,
+    "fields": {
+      "name": "Программирование",
+      "description": "Книги по программированию"
+    }
+  },
+  {
+    "model": "store_app.category",
+    "pk": 7,
+    "fields": {
+      "name": "Мужская одежда",
+      "description": "Одежда для мужчин"
+    }
+  },
+  {
+    "model": "store_app.category",
+    "pk": 8,
+    "fields": {
+      "name": "Женская одежда",
+      "description": "Одежда для женщин"
+    }
+  },
+  {
+    "model": "store_app.category",
+    "pk": 9,
+    "fields": {
+      "name": "Диваны",
+      "description": "Мягкая мебель для гостиной"
+    }
+  },
+  {
+    "model": "store_app.category",
+    "pk": 10,
+    "fields": {
+      "name": "Столы",
+      "description": "Обеденные и рабочие столы"
+    }
+  },
+  {
+    "model": "store_app.category",
+    "pk": 11,
+    "fields": {
+      "name": "Молочные продукты",
+      "description": "Молоко, сыр, йогурты"
+    }
+  },
+  {
+    "model": "store_app.category",
+    "pk": 12,
+    "fields": {
+      "name": "Бакалея",
+      "description": "Крупы, макароны, специи"
+    }
+  },
+  {
+    "model": "store_app.category",
+    "pk": 13,
+    "fields": {
+      "name": "Игрушки",
+      "description": "Детские игрушки"
+    }
+  },
+  {
+    "model": "store_app.category",
+    "pk": 14,
+    "fields": {
+      "name": "Спорт",
+      "description": "Спортивные товары"
+    }
+  },
+  {
+    "model": "store_app.category",
+    "pk": 15,
+    "fields": {
+      "name": "Косметика",
+      "description": "Косметические средства"
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 1,
+    "fields": {
+      "name": "iPhone 15 Pro Max",
+      "description": "Флагманский смартфон Apple с камерой 48 МП",
+      "price": "149999.99",
+      "created_at": "2024-01-10T09:30:00Z",
+      "category": 1
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 2,
+    "fields": {
+      "name": "Samsung Galaxy S24 Ultra",
+      "description": "Смартфон с S-Pen и камерой 200 МП",
+      "price": "129999.50",
+      "created_at": "2024-01-12T11:45:00Z",
+      "category": 1
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 3,
+    "fields": {
+      "name": "Xiaomi Redmi Note 13 Pro",
+      "description": "Смартфон с AMOLED-экраном 120 Гц",
+      "price": "34999.00",
+      "created_at": "2024-01-15T14:20:00Z",
+      "category": 1
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 4,
+    "fields": {
+      "name": "MacBook Pro 16 M3 Max",
+      "description": "Мощный ноутбук для профессионалов",
+      "price": "349999.00",
+      "created_at": "2024-01-18T10:15:00Z",
+      "category": 2
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 5,
+    "fields": {
+      "name": "ASUS ROG Zephyrus G16",
+      "description": "Игровой ноутбук с RTX 4070",
+      "price": "219999.99",
+      "created_at": "2024-01-20T13:30:00Z",
+      "category": 2
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 6,
+    "fields": {
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "description": "Бизнес-ноутбук премиум-класса",
+      "price": "189999.50",
+      "created_at": "2024-01-22T15:45:00Z",
+      "category": 2
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 7,
+    "fields": {
+      "name": "Samsung QLED 75\" Q80C",
+      "description": "Телевизор 4K с технологией QLED",
+      "price": "189999.00",
+      "created_at": "2024-01-25T09:20:00Z",
+      "category": 3
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 8,
+    "fields": {
+      "name": "LG OLED 65\" C3",
+      "description": "OLED-телевизор с идеальным черным",
+      "price": "159999.99",
+      "created_at": "2024-01-28T11:35:00Z",
+      "category": 3
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 9,
+    "fields": {
+      "name": "Sony Bravia 55\" X90L",
+      "description": "Телевизор с процессором Cognitive Processor XR",
+      "price": "119999.50",
+      "created_at": "2024-01-30T14:50:00Z",
+      "category": 3
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 10,
+    "fields": {
+      "name": "AirPods Pro 2",
+      "description": "Беспроводные наушники с шумоподавлением",
+      "price": "29999.99",
+      "created_at": "2024-02-01T10:25:00Z",
+      "category": 4
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 11,
+    "fields": {
+      "name": "Sony WH-1000XM5",
+      "description": "Накладные наушники с продвинутым шумоподавлением",
+      "price": "34999.00",
+      "created_at": "2024-02-03T12:40:00Z",
+      "category": 4
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 12,
+    "fields": {
+      "name": "Марсианин",
+      "description": "Научно-фантастический роман Энди Вейера",
+      "price": "899.00",
+      "created_at": "2024-02-05T15:55:00Z",
+      "category": 5
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 13,
+    "fields": {
+      "name": "Властелин Колец: Братство Кольца",
+      "description": "Первая книга трилогии Толкиена",
+      "price": "1299.50",
+      "created_at": "2024-02-08T09:10:00Z",
+      "category": 5
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 14,
+    "fields": {
+      "name": "Изучаем Python. Том 1",
+      "description": "Подробное руководство по Python",
+      "price": "2499.00",
+      "created_at": "2024-02-10T11:25:00Z",
+      "category": 6
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 15,
+    "fields": {
+      "name": "Алгоритмы: построение и анализ",
+      "description": "Классическая книга по алгоритмам",
+      "price": "4599.99",
+      "created_at": "2024-02-12T13:40:00Z",
+      "category": 6
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 16,
+    "fields": {
+      "name": "Мужские джинсы Levi's 511",
+      "description": "Слимочные джинсы",
+      "price": "7999.00",
+      "created_at": "2024-02-15T15:55:00Z",
+      "category": 7
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 17,
+    "fields": {
+      "name": "Мужская куртка The North Face",
+      "description": "Теплая зимняя куртка",
+      "price": "18999.99",
+      "created_at": "2024-02-18T10:20:00Z",
+      "category": 7
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 18,
+    "fields": {
+      "name": "Женское платье Zara",
+      "description": "Вечернее платье",
+      "price": "5999.50",
+      "created_at": "2024-02-20T12:35:00Z",
+      "category": 8
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 19,
+    "fields": {
+      "name": "Женские джинсы Mango",
+      "description": "Джинсы с высокой талией",
+      "price": "6999.00",
+      "created_at": "2024-02-22T14:50:00Z",
+      "category": 8
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 20,
+    "fields": {
+      "name": "Кожаный дитан Ikea",
+      "description": "Трехместный диван из экокожи",
+      "price": "75999.99",
+      "created_at": "2024-02-25T09:05:00Z",
+      "category": 9
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 21,
+    "fields": {
+      "name": "Угловой диван",
+      "description": "Большой угловой дитан для гостиной",
+      "price": "125999.50",
+      "created_at": "2024-02-28T11:20:00Z",
+      "category": 9
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 22,
+    "fields": {
+      "name": "Обеденный стол из дуба",
+      "description": "Стол на 6 персон",
+      "price": "45999.00",
+      "created_at": "2024-03-01T13:35:00Z",
+      "category": 10
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 23,
+    "fields": {
+      "name": "Пармезан",
+      "description": "Итальянский твердый сыр",
+      "price": "2499.99",
+      "created_at": "2024-03-03T15:50:00Z",
+      "category": 11
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 24,
+    "fields": {
+      "name": "Греческий йогурт",
+      "description": "Натуральный йогурт 5% жирности",
+      "price": "199.50",
+      "created_at": "2024-03-05T10:15:00Z",
+      "category": 11
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 25,
+    "fields": {
+      "name": "Рис басмати",
+      "description": "Ароматный длиннозерный рис",
+      "price": "499.00",
+      "created_at": "2024-03-07T12:30:00Z",
+      "category": 12
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 26,
+    "fields": {
+      "name": "Конструктор Lego Technic",
+      "description": "Конструктор для сборки техники",
+      "price": "15999.99",
+      "created_at": "2024-03-09T14:45:00Z",
+      "category": 13
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 27,
+    "fields": {
+      "name": "Мяч футбольный Adidas",
+      "description": "Официальный мяч для матчей",
+      "price": "3999.50",
+      "created_at": "2024-03-11T09:00:00Z",
+      "category": 14
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 28,
+    "fields": {
+      "name": "Крем для лица La Roche-Posay",
+      "description": "Увлажняющий крем для чувствительной кожи",
+      "price": "2499.00",
+      "created_at": "2024-03-13T11:15:00Z",
+      "category": 15
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 29,
+    "fields": {
+      "name": "OnePlus 12",
+      "description": "Флагманский смартфон с Snapdragon 8 Gen 3",
+      "price": "79999.99",
+      "created_at": "2024-03-15T13:30:00Z",
+      "category": 1
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 30,
+    "fields": {
+      "name": "Google Pixel 8 Pro",
+      "description": "Смартфон с лучшей камерой по версии DxOMark",
+      "price": "89999.50",
+      "created_at": "2024-03-17T15:45:00Z",
+      "category": 1
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 31,
+    "fields": {
+      "name": "Dell XPS 15",
+      "description": "Ноутбук с безрамочным дисплеем",
+      "price": "179999.00",
+      "created_at": "2024-03-19T10:20:00Z",
+      "category": 2
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 32,
+    "fields": {
+      "name": "HP Spectre x360",
+      "description": "Ноутбук-трансформер премиум-класса",
+      "price": "159999.99",
+      "created_at": "2024-03-21T12:35:00Z",
+      "category": 2
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 33,
+    "fields": {
+      "name": "Samsung 85\" Neo QLED",
+      "description": "Большой телевизор с матрицей Mini LED",
+      "price": "299999.50",
+      "created_at": "2024-03-23T14:50:00Z",
+      "category": 3
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 34,
+    "fields": {
+      "name": "Sennheiser Momentum 4",
+      "description": "Беспроводные наушники с 60-часовой батареей",
+      "price": "28999.00",
+      "created_at": "2024-03-25T09:05:00Z",
+      "category": 4
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 35,
+    "fields": {
+      "name": "Дюна",
+      "description": "Научно-фантастический роман Фрэнка Герберта",
+      "price": "1199.99",
+      "created_at": "2024-03-27T11:20:00Z",
+      "category": 5
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 36,
+    "fields": {
+      "name": "Чистый код",
+      "description": "Роберт Мартин о написании качественного кода",
+      "price": "2899.50",
+      "created_at": "2024-03-29T13:35:00Z",
+      "category": 6
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 37,
+    "fields": {
+      "name": "Мужская рубашка Hugo Boss",
+      "description": "Классическая рубашка",
+      "price": "12999.00",
+      "created_at": "2024-04-01T15:50:00Z",
+      "category": 7
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 38,
+    "fields": {
+      "name": "Женская куртка Moncler",
+      "description": "Пуховая куртка",
+      "price": "89999.99",
+      "created_at": "2024-04-03T10:15:00Z",
+      "category": 8
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 39,
+    "fields": {
+      "name": "Диван-кровать",
+      "description": "Раскладной диван для гостей",
+      "price": "45999.50",
+      "created_at": "2024-04-05T12:30:00Z",
+      "category": 9
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 40,
+    "fields": {
+      "name": "Кофейный стол",
+      "description": "Стеклянный журнальный столик",
+      "price": "15999.00",
+      "created_at": "2024-04-07T14:45:00Z",
+      "category": 10
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 41,
+    "fields": {
+      "name": "Моцарелла",
+      "description": "Итальянский сыр для пиццы",
+      "price": "899.99",
+      "created_at": "2024-04-09T09:00:00Z",
+      "category": 11
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 42,
+    "fields": {
+      "name": "Гречка",
+      "description": "Ядрица высшего сорта",
+      "price": "199.50",
+      "created_at": "2024-04-11T11:15:00Z",
+      "category": 12
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 43,
+    "fields": {
+      "name": "Кукла Barbie",
+      "description": "Классическая кукла",
+      "price": "2999.00",
+      "created_at": "2024-04-13T13:30:00Z",
+      "category": 13
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 44,
+    "fields": {
+      "name": "Гантели 10 кг",
+      "description": "Резиновые гантели",
+      "price": "2999.99",
+      "created_at": "2024-04-15T15:45:00Z",
+      "category": 14
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 45,
+    "fields": {
+      "name": "Помада MAC",
+      "description": "Стойкая матовая помада",
+      "price": "2499.50",
+      "created_at": "2024-04-17T10:20:00Z",
+      "category": 15
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 46,
+    "fields": {
+      "name": "Nothing Phone 2",
+      "description": "Смартфон с уникальным дизайном",
+      "price": "59999.00",
+      "created_at": "2024-04-19T12:35:00Z",
+      "category": 1
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 47,
+    "fields": {
+      "name": "Realme GT 5 Pro",
+      "description": "Игровой смартфон",
+      "price": "49999.99",
+      "created_at": "2024-04-21T14:50:00Z",
+      "category": 1
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 48,
+    "fields": {
+      "name": "Acer Predator Helios 300",
+      "description": "Игровой ноутбук",
+      "price": "149999.50",
+      "created_at": "2024-04-23T09:05:00Z",
+      "category": 2
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 49,
+    "fields": {
+      "name": "MSI Stealth 14 Studio",
+      "description": "Тонкий игровой ноутбук",
+      "price": "189999.00",
+      "created_at": "2024-04-25T11:20:00Z",
+      "category": 2
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 50,
+    "fields": {
+      "name": "Philips Ambilight 55\"",
+      "description": "Телевизор с подсветкой Ambilight",
+      "price": "89999.99",
+      "created_at": "2024-04-27T13:35:00Z",
+      "category": 3
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 51,
+    "fields": {
+      "name": "JBL Live 660NC",
+      "description": "Беспроводные наушники",
+      "price": "12999.50",
+      "created_at": "2024-04-29T15:50:00Z",
+      "category": 4
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 52,
+    "fields": {
+      "name": "Гарри Поттер и Философский камень",
+      "description": "Первая книга серии",
+      "price": "999.00",
+      "created_at": "2024-05-01T10:15:00Z",
+      "category": 5
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 53,
+    "fields": {
+      "name": "Шаблоны проектирования",
+      "description": "Книга банды четырех",
+      "price": "3499.99",
+      "created_at": "2024-05-03T12:30:00Z",
+      "category": 6
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 54,
+    "fields": {
+      "name": "Мужские брюки Tommy Hilfiger",
+      "description": "Классические брюки",
+      "price": "8999.50",
+      "created_at": "2024-05-05T14:45:00Z",
+      "category": 7
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 55,
+    "fields": {
+      "name": "Женская блузка Massimo Dutti",
+      "description": "Шелковая блузка",
+      "price": "7999.00",
+      "created_at": "2024-05-07T09:00:00Z",
+      "category": 8
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 56,
+    "fields": {
+      "name": "Кресло-качалка",
+      "description": "Деревянное кресло-качалка",
+      "price": "25999.99",
+      "created_at": "2024-05-09T11:15:00Z",
+      "category": 9
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 57,
+    "fields": {
+      "name": "Письменный стол",
+      "description": "Стол с ящиками",
+      "price": "22999.50",
+      "created_at": "2024-05-11T13:30:00Z",
+      "category": 10
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 58,
+    "fields": {
+      "name": "Сливочное масло",
+      "description": "Масло 82.5% жирности",
+      "price": "299.00",
+      "created_at": "2024-05-13T15:45:00Z",
+      "category": 11
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 59,
+    "fields": {
+      "name": "Овсяные хлопья",
+      "description": "Геркулес",
+      "price": "149.99",
+      "created_at": "2024-05-15T10:20:00Z",
+      "category": 12
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 60,
+    "fields": {
+      "name": "Настольная игра Монополия",
+      "description": "Классическая экономическая игра",
+      "price": "2999.50",
+      "created_at": "2024-05-17T12:35:00Z",
+      "category": 13
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 61,
+    "fields": {
+      "name": "Велосипед горный",
+      "description": "Горный велосипед 27.5\"",
+      "price": "45999.00",
+      "created_at": "2024-05-19T14:50:00Z",
+      "category": 14
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 62,
+    "fields": {
+      "name": "Тушь для ресниц Maybelline",
+      "description": "Объемная тушь",
+      "price": "899.99",
+      "created_at": "2024-05-21T09:05:00Z",
+      "category": 15
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 63,
+    "fields": {
+      "name": "Asus ROG Phone 8",
+      "description": "Игровой смартфон",
+      "price": "99999.50",
+      "created_at": "2024-05-23T11:20:00Z",
+      "category": 1
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 64,
+    "fields": {
+      "name": "Honor Magic 6 Pro",
+      "description": "Смартфон с круговым экраном",
+      "price": "79999.00",
+      "created_at": "2024-05-25T13:35:00Z",
+      "category": 1
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 65,
+    "fields": {
+      "name": "Framework Laptop 13",
+      "description": "Ремонтопригодный ноутбук",
+      "price": "129999.99",
+      "created_at": "2024-05-27T15:50:00Z",
+      "category": 2
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 66,
+    "fields": {
+      "name": "Razer Blade 15",
+      "description": "Игровой ноутбук",
+      "price": "199999.50",
+      "created_at": "2024-05-29T10:15:00Z",
+      "category": 2
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 67,
+    "fields": {
+      "name": "Xiaomi Mi TV Q1 75\"",
+      "description": "QLED телевизор",
+      "price": "149999.00",
+      "created_at": "2024-05-31T12:30:00Z",
+      "category": 3
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 68,
+    "fields": {
+      "name": "Bose QuietComfort Ultra",
+      "description": "Наушники с шумоподавлением",
+      "price": "39999.99",
+      "created_at": "2024-06-02T14:45:00Z",
+      "category": 4
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 69,
+    "fields": {
+      "name": "451 градус по Фаренгейту",
+      "description": "Антиутопия Рэя Брэдбери",
+      "price": "799.50",
+      "created_at": "2024-06-04T09:00:00Z",
+      "category": 5
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 70,
+    "fields": {
+      "name": "Искусство программирования",
+      "description": "Книга Дональда Кнута",
+      "price": "5999.00",
+      "created_at": "2024-06-06T11:15:00Z",
+      "category": 6
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 71,
+    "fields": {
+      "name": "Мужской свитер",
+      "description": "Шерстяной свитер",
+      "price": "5999.99",
+      "created_at": "2024-06-08T13:30:00Z",
+      "category": 7
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 72,
+    "fields": {
+      "name": "Женские кроссовки Nike",
+      "description": "Беговые кроссовки",
+      "price": "8999.50",
+      "created_at": "2024-06-10T15:45:00Z",
+      "category": 8
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 73,
+    "fields": {
+      "name": "Пуфик",
+      "description": "Кожаный пуфик",
+      "price": "7999.00",
+      "created_at": "2024-06-12T10:20:00Z",
+      "category": 9
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 74,
+    "fields": {
+      "name": "Тумба прикроватная",
+      "description": "Деревянная тумба",
+      "price": "5999.99",
+      "created_at": "2024-06-14T12:35:00Z",
+      "category": 10
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 75,
+    "fields": {
+      "name": "Творог 9%",
+      "description": "Домашний творог",
+      "price": "249.50",
+      "created_at": "2024-06-16T14:50:00Z",
+      "category": 11
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 76,
+    "fields": {
+      "name": "Чечевица",
+      "description": "Красная чечевица",
+      "price": "299.00",
+      "created_at": "2024-06-18T09:05:00Z",
+      "category": 12
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 77,
+    "fields": {
+      "name": "Пазл 1000 элементов",
+      "description": "Пазл с пейзажем",
+      "price": "1999.99",
+      "created_at": "2024-06-20T11:20:00Z",
+      "category": 13
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 78,
+    "fields": {
+      "name": "Скакалка",
+      "description": "Спортивная скакалка",
+      "price": "499.50",
+      "created_at": "2024-06-22T13:35:00Z",
+      "category": 14
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 79,
+    "fields": {
+      "name": "Крем для рук Nivea",
+      "description": "Увлажняющий крем",
+      "price": "399.00",
+      "created_at": "2024-06-24T15:50:00Z",
+      "category": 15
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 80,
+    "fields": {
+      "name": "Motorola Edge 40 Pro",
+      "description": "Смартфон с чипом Snapdragon",
+      "price": "69999.99",
+      "created_at": "2024-06-26T10:15:00Z",
+      "category": 1
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 81,
+    "fields": {
+      "name": "Vivo X100 Pro",
+      "description": "Смартфон с зум-камерой",
+      "price": "89999.50",
+      "created_at": "2024-06-28T12:30:00Z",
+      "category": 1
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 82,
+    "fields": {
+      "name": "Google Pixelbook Go",
+      "description": "Хромбук премиум-класса",
+      "price": "99999.00",
+      "created_at": "2024-06-30T14:45:00Z",
+      "category": 2
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 83,
+    "fields": {
+      "name": "Microsoft Surface Laptop 5",
+      "description": "Ноутбук от Microsoft",
+      "price": "149999.99",
+      "created_at": "2024-07-02T09:00:00Z",
+      "category": 2
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 84,
+    "fields": {
+      "name": "TCL 65\" QLED",
+      "description": "Бюджетный QLED телевизор",
+      "price": "69999.50",
+      "created_at": "2024-07-04T11:15:00Z",
+      "category": 3
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 85,
+    "fields": {
+      "name": "Beats Studio Pro",
+      "description": "Беспроводные наушники",
+      "price": "24999.00",
+      "created_at": "2024-07-06T13:30:00Z",
+      "category": 4
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 86,
+    "fields": {
+      "name": "Игра престолов",
+      "description": "Первая книга цикла",
+      "price": "1299.99",
+      "created_at": "2024-07-08T15:45:00Z",
+      "category": 5
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 87,
+    "fields": {
+      "name": "Рефакторинг",
+      "description": "Улучшение существующего кода",
+      "price": "2899.50",
+      "created_at": "2024-07-10T10:20:00Z",
+      "category": 6
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 88,
+    "fields": {
+      "name": "Мужское пальто",
+      "description": "Шерстяное пальто",
+      "price": "29999.00",
+      "created_at": "2024-07-12T12:35:00Z",
+      "category": 7
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 89,
+    "fields": {
+      "name": "Женская сумка Michael Kors",
+      "description": "Кожаная сумка",
+      "price": "34999.99",
+      "created_at": "2024-07-14T14:50:00Z",
+      "category": 8
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 90,
+    "fields": {
+      "name": "Кресло офисное",
+      "description": "Эргономичное офисное кресло",
+      "price": "19999.50",
+      "created_at": "2024-07-16T09:05:00Z",
+      "category": 9
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 91,
+    "fields": {
+      "name": "Компьютерный стол",
+      "description": "Стол для компьютера",
+      "price": "12999.00",
+      "created_at": "2024-07-18T11:20:00Z",
+      "category": 10
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 92,
+    "fields": {
+      "name": "Кефир",
+      "description": "Кефир 3.2% жирности",
+      "price": "89.99",
+      "created_at": "2024-07-20T13:35:00Z",
+      "category": 11
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 93,
+    "fields": {
+      "name": "Макароны",
+      "description": "Спагетти из твердых сортов",
+      "price": "199.50",
+      "created_at": "2024-07-22T15:50:00Z",
+      "category": 12
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 94,
+    "fields": {
+      "name": "Радиоуправляемая машинка",
+      "description": "Машинка на радиоуправлении",
+      "price": "4999.00",
+      "created_at": "2024-07-24T10:15:00Z",
+      "category": 13
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 95,
+    "fields": {
+      "name": "Йога-мат",
+      "description": "Коврик для йоги",
+      "price": "1999.99",
+      "created_at": "2024-07-26T12:30:00Z",
+      "category": 14
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 96,
+    "fields": {
+      "name": "Пудра Chanel",
+      "description": "Рассыпчатая пудра",
+      "price": "5999.50",
+      "created_at": "2024-07-28T14:45:00Z",
+      "category": 15
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 97,
+    "fields": {
+      "name": "Sony Xperia 1 V",
+      "description": "Смартфон для фотографов",
+      "price": "119999.00",
+      "created_at": "2024-07-30T09:00:00Z",
+      "category": 1
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 98,
+    "fields": {
+      "name": "Nokia G42",
+      "description": "Бюджетный смартфон",
+      "price": "19999.99",
+      "created_at": "2024-08-01T11:15:00Z",
+      "category": 1
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 99,
+    "fields": {
+      "name": "Apple MacBook Air M2",
+      "description": "Тонкий и легкий ноутбук",
+      "price": "129999.50",
+      "created_at": "2024-08-03T13:30:00Z",
+      "category": 2
+    }
+  },
+  {
+    "model": "store_app.product",
+    "pk": 100,
+    "fields": {
+      "name": "Huawei MateBook D16",
+      "description": "Ноутбук с большим экраном",
+      "price": "89999.00",
+      "created_at": "2024-08-05T15:45:00Z",
+      "category": 2
+    }
+  }
+]
